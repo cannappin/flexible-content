@@ -91,6 +91,8 @@ define( 'WP_DEBUG', false );
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
 /** Chemin absolu vers le dossier de WordPress. */
+define( 'DUP_SECURE_KEY', '-cc.(M[HdG5M9|{UM-|y9a8 ES~)1zRTU!<z6[kS:ZJ7If!f) g 6;n_l59F`_D@' );
+define( 'DUPLICATOR_AUTH_KEY', '-cc.(M[HdG5M9|{UM-|y9a8 ES~)1zRTU!<z6[kS:ZJ7If!f) g 6;n_l59F`_D@' );
 if ( ! defined( 'ABSPATH' ) )
   define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 
